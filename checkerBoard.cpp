@@ -1,5 +1,5 @@
 #include <iostream>
-#include "checkerBoard.h"
+#include "checkerboard.h"
 
 std::string checkers(int width, int height){
     std::string result = "";
@@ -12,13 +12,13 @@ std::string checkers(int width, int height){
                 if(j % 2 == 0){
                     result += "*";
                 }else{
-                    result += "-";
+                    result += " ";
                 }
             }else{
                 if(j % 2 != 0){
                     result += "*";
                 }else{
-                    result += "-";
+                    result += " ";
                 }
             }
 

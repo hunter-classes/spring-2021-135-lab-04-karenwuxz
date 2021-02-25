@@ -2,5 +2,5 @@
 #pragma once
 #include <iostream>
 
-std::string upper(int width, int height);
+std::string upper(int width);
 
